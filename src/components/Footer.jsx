@@ -3,7 +3,7 @@ const Footer = () => {
   return (
 
 
-<footer class="bg-gradient-to-r from-[#5DA1EA] to-[#2D5076]">
+<footer class="bg-gradient-to-r from-[#5DA1EA] to-[#2D5076] ">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
@@ -11,38 +11,38 @@ const Footer = () => {
       </div>
  
         <div>
-            <h2 class="mb-6 text-sm font-semibold uppercase text-white text-gray-900 ">Pages</h2>
+            <h2 class="mb-6 text-sm font-bold uppercase text-black text-gray-900 ">Pages</h2>
             <ul class="text-white font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Home</a>
+                    <a href="#" class="hover:underline font-bold">Home</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Blogs</a>
+                    <a href="#" class="hover:underline font-bold">Blogs</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">About</a>
+                    <a href="#" class="hover:underline font-bold">About</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Contact Us</a>
+                    <a href="#" class="hover:underline font-bold">Contact Us</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Legal</h2>
             <ul class="text-white font-medium">
                 <li class="mb-4">
-                    <a href="/privacy" class="hover:underline">Privacy Policy</a>
+                    <a href="/privacy" class="hover:underline font-bold">Privacy Policy</a>
                 </li>
                 <li class="mb-4">
-                    <a href="/disclaimer" class="hover:underline">Disclaimer</a>
+                    <a href="/disclaimer" class="hover:underline font-bold">Disclaimer</a>
                 </li>
                 <li class="mb-4">
-                    <a href="/terms" class="hover:underline">Terms &amp; Conditions</a>
+                    <a href="/terms" class="hover:underline font-bold">Terms &amp; Conditions</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Download</h2>
             <ul class="text-white font-medium">
                 <li class="mb-4">
                 <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">

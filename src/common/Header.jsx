@@ -24,7 +24,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className='hidden md:flex items-center md:flex-row md:ml-auto mt-3:mt-0'>
+        <div className='hidden font-bold md:flex items-center md:flex-row md:ml-auto mt-3:mt-0'>
           <a href="/" className='p-2 lg:px-4 md:mx-2 text-white rounded'>Home</a>
           <a href="/blogs" className='p-2 lg:px-4 md:mx-2 text-white rounded'>Blogs</a>
           <a href="/aboutus" className='p-2 lg:px-4 md:mx-2 text-white rounded'>About</a>
@@ -35,10 +35,10 @@ const Header = () => {
         </div>
         <div className={close ? "hidden":"block"}>
           <div className='px-2 pt-2 pb-3 sm:px-3 text-center bg-black w-[100%]'>
-            <a href="/home" className='block px-3 py-2 rounded text-base font-medium text-white '>Home</a>
-            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Blogs</a>
-            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>About</a>
-            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Contact us</a>
+            <a href="/" className='block px-3 py-2 rounded text-base font-medium text-white '>Home</a>
+            <a href="/blogs" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Blogs</a>
+            <a href="/aboutus" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>About</a>
+            <a href="/contact" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Contact us</a>
             <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white bg-[#5CA0E9]'>Add to Chrome</a>
           </div>
         </div>

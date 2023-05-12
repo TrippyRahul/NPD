@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <form class="max-w-lg mx-auto my-8">
+   <div className='lg:h-[100vh] flex flex-col justify-center items-center'>
+    <h1 className='text-[54px] font-bold text-center text-[#1C344E] '>Contact Us</h1>
+     <form class="w-[50%] mx-auto my-8">
     <div class="mb-4">
       <label class="block text-gray-700 font-bold mb-2" for="name">
         Name
@@ -27,6 +29,7 @@ Submit
           </a>
     </div>
   </form>
+   </div>
   
   )
 }

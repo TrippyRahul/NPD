@@ -53,10 +53,10 @@ const Cards = () => {
 
     
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mx-[2rem] pt-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:mx-[2rem] pt-4 ">
         {cardsData.map((card) => (
           <div
-            class="bg-white rounded-lg shadow-md p-6 text-center mx-4 mb-6 w-full md:w-auto md:px-4"
+            class="bg-white rounded-lg shadow-md p-6 text-center lg:mx-4 mb-6 w-full md:w-auto md:px-4"
             key={card.title}
           >
             <h2 class="text-xl font-bold mb-4 flex justify-center">

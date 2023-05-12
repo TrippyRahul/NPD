@@ -37,11 +37,11 @@ const Faq = () => {
   return (
     <div className='lg:h-[100vh]'>
       <div className="h-[100%] flex flex-col md:flex-row justify-center items-center sm:flex flex-col-reverse">
-        <div className="w-full text-[#1C344E]  md:w-1/2 py-6 px-6 md:px-16 text-center md:text-left">
+        <div className="w-full text-[#1C344E] md:w-1/2 py-6 px-6 md:px-16 text-center md:text-left">
           <h1>Add Block At one Click</h1>
-          <h1 className="text-[3.5rem] font-bold mb-4  leading-[4rem]">
+          <h1 className="text-[#1C344E] text-[2.5rem] font-bold mb-4 leading-[3rem] md:text-[3.5rem] md:leading-[4rem]">
             One Extension
-            <br /> For All Unsecure Websites
+            <br className="sm:hidden"/> For All Unsecure Websites
           </h1>
           <h1>One Extention,Unlimited potential</h1>
           <p className="text-[10px] pt-2">

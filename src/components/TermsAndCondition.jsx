@@ -25,10 +25,10 @@ const TermsAndCondition = () => {
       {data.map((about) => {
         return (
           <>
-               <div class="w-full px-8 lg:w-[50%] lg:mx-[5.5rem] py-6">
+              <div class="w-full mx-[2rem] lg:w-[50%] lg:mx-[5.5rem] py-6">
               <h1 className="text-4xl font-bold">{about.title}</h1>
             </div>
-            <p class="w-full px-8 lg:w-[90%] lg:mx-[4.5rem] py-1">{about.desc}</p>
+             <p class="w-full px-4 lg:w-[90%] lg:mx-[4.5rem] py-1">{about.desc}</p>
           </>
         );
       })}

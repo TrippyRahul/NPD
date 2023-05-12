@@ -16,7 +16,7 @@ const Privacy = () => {
     },
   ];
   return (
-    <div className="text-[#1C344E] lg:h-[100vh]">
+    <div className="text-[#1C344E] lg:h-auto">
       <div className="py-4">
         <h1 className="text-[54px] font-bold text-center">
           Privacy And Policy
@@ -25,10 +25,10 @@ const Privacy = () => {
       {data.map((about) => {
         return (
           <>
-             <div class="w-full px-8 lg:w-[50%] lg:mx-[5.5rem] py-6">
+             <div class="w-full py-8 lg:w-[50%] lg:mx-[5.5rem]">
               <h1 className="text-4xl font-bold">{about.title}</h1>
             </div>
-            <p class="w-full px-8 lg:w-[90%] lg:mx-[4.5rem] py-1">{about.desc}</p>
+           <p class="w-full px-4 lg:w-[90%] lg:mx-[4.5rem] py-1">{about.desc}</p>
           </>
         );
       })}

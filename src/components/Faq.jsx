@@ -38,13 +38,13 @@ const Faq = () => {
     <div className='lg:h-[100vh] bg-gradient-to-r from-[#5DA1EA] to-[#2D5076]'>
       <div className="h-[100%] flex flex-col md:flex-row justify-center items-center sm:flex flex-col-reverse">
         <div className="w-full text-[#1C344E] md:w-1/2 py-6 px-6 md:px-16 text-center md:text-left">
-          <h1>Add Block At one Click</h1>
-          <h1 className="text-[#1C344E] text-[2.5rem] font-bold mb-4 leading-[3rem] md:text-[3.5rem] md:leading-[4rem]">
+          <h1 className="text-white">Add Block At one Click</h1>
+          <h1 className="text-white text-[2.5rem] font-bold mb-4 leading-[3rem] md:text-[3.5rem] md:leading-[4rem]">
             One Extension
             <br className="sm:hidden"/> For All Unsecure Websites
           </h1>
-          <h1>One Extention,Unlimited potential</h1>
-          <p className="text-[10px] pt-2">
+          <h1 className="text-white">One Extention,Unlimited potential</h1>
+          <p className="text-[10px] pt-2 text-white">
             Network security is the practice of protecting computer networks
             from unauthorized access, attacks, and data breaches. It involves
             implementing various measures such as firewalls, encryption,
@@ -74,7 +74,7 @@ const Faq = () => {
             className="flex items-center justify-between cursor-pointer"
             onClick={() => handleClick(index)}
           >
-            <h3 className="text-lg font-medium text-gray-900">
+            <h3 className="text-lg font-medium text-white">
               {question.title}
             </h3>
             <svg
@@ -92,7 +92,7 @@ const Faq = () => {
             </svg>
           </div>
           {activeQuestion === index && (
-            <p className="mt-2 text-gray-600">
+            <p className="mt-2 text-white">
               {question.answer}
             </p>
           )}

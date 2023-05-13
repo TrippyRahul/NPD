@@ -35,7 +35,7 @@ const Faq = () => {
       setActiveQuestion(index === activeQuestion ? null : index);
     };
   return (
-    <div className='lg:h-[100vh]'>
+    <div className='lg:h-[100vh] bg-gradient-to-r from-[#5DA1EA] to-[#2D5076]'>
       <div className="h-[100%] flex flex-col md:flex-row justify-center items-center sm:flex flex-col-reverse">
         <div className="w-full text-[#1C344E] md:w-1/2 py-6 px-6 md:px-16 text-center md:text-left">
           <h1>Add Block At one Click</h1>

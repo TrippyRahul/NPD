@@ -55,13 +55,10 @@ const Faq = () => {
             access, and other cyber threats that can cause significant
             financial, reputational, and legal damages.
           </p>
-          <a
-            href="/home"
-            className="mt-12 flex justify-center items-center gap-3 lg:w-[50%] md:text-white rounded-tr-lg rounded-bl-lg px-8 py-1 bg-[#5CA0E9] font-bold"
-          >
-            <AiFillChrome size={30} />
-            Add to Chrome
-          </a>
+          <a href="/home" className="mt-8 border-2 flex justify-center items-center gap-3 lg:w-[50%] lg:mt-12 md:mt-4 text-white rounded-tr-lg rounded-bl-lg px-10 py-2 bg-transparent font-bold">
+          <AiFillChrome size={30} />
+          Add to Chrome
+        </a> 
         </div>
         <div className="w-full md:w-1/2 py-6 px-6">
         <div className="max-w-lg mx-auto">

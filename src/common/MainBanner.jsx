@@ -18,10 +18,10 @@ const MainBanner = () => {
           Network security refers to the practice of implementing various
           technologies, protocols, and policies to protect computer networks
         </p>
-        <a href="/home" className="border-2 flex justify-center items-center gap-3 lg:w-[50%] mt-12 md:mt-4 text-white rounded-tr-lg rounded-bl-lg px-8 py-1 bg-transparent font-bold">
+        <a href="/home" className="mt-8 border-2 flex justify-center items-center gap-3 lg:w-[50%] lg:mt-12 md:mt-4 text-white rounded-tr-lg rounded-bl-lg px-8 py-1 bg-transparent font-bold">
           <AiFillChrome size={30} />
           Add to Chrome
-        </a>
+        </a> 
       </div>
       <div className="w-full md:w-1/2 py-6 px-6">
         <img src="assets/security.png" alt="" />

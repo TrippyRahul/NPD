@@ -33,13 +33,13 @@ const Header = () => {
             <AiFillChrome size={30}/>Add to Chrome
           </a>
         </div>
-        <div className={close ? "hidden":"block"}>
-          <div className='px-2 pt-2 pb-3 sm:px-3 text-center bg-black w-[100%]'>
-            <a href="/" className='block px-3 py-2 rounded text-base font-medium text-white '>Home</a>
-            <a href="/blogs" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Blogs</a>
-            <a href="/aboutus" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>About</a>
-            <a href="/contact" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white hover:text-gray-400 hover:bg-gray-700'>Contact us</a>
-            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white bg-[#5CA0E9]'>Add to Chrome</a>
+        <div className={close ? "hidden":"block pt-2 "}>
+          <div className='px-2 pt-2 pb-3 sm:px-3 text-center bg-white w-[100%] rounded-lg'>
+            <a href="/" className='block px-3 py-2 rounded text-base font-bold text-black '>Home</a>
+            <a href="/blogs" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>Blogs</a>
+            <a href="/aboutus" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>About</a>
+            <a href="/contact" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>Contact us</a>
+            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white font-bold bg-[#5CA0E9]'>Add to Chrome</a>
           </div>
         </div>
       </div>

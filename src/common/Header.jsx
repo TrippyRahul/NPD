@@ -39,7 +39,7 @@ const Header = () => {
             <a href="/blogs" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>Blogs</a>
             <a href="/aboutus" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>About</a>
             <a href="/contact" className='block px-3 py-2 rounded mt-1 text-base font-bold text-black hover:text-gray-400 hover:bg-gray-700'>Contact us</a>
-            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base font-medium text-white font-bold bg-[#5CA0E9]'>Add to Chrome</a>
+            <a href="/home" className='block px-3 py-2 rounded mt-1 text-base text-white font-bold bg-[#5CA0E9]'>Add to Chrome</a>
           </div>
         </div>
       </div>

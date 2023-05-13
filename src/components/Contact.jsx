@@ -30,7 +30,7 @@ const Contact = () => {
       <h1 className="text-[54px] font-bold text-center text-white ">
         Contact Us
       </h1>
-      <form class="w-[50%] mx-auto my-8" ref={form} onSubmit={sendEmail}>
+      <form class="lg:w-[50%] mx-auto my-8 px-8" ref={form} onSubmit={sendEmail}>
         <div class="mb-4">
           <label class="block text-white font-bold mb-2" for="name">
             Name

@@ -37,7 +37,8 @@ const Cards = () => {
     {
       icons: <MdOutlineRemoveModerator size={100} />,
       title: "Remove Prevention",
-      description: "Nobody can delete the program from your devices without your knowledge or permission",
+      description:
+        "Nobody can delete the program from your devices without your knowledge or permission",
     },
   ];
 

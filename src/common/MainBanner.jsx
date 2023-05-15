@@ -25,7 +25,7 @@ const MainBanner = () => {
           </a>
         </div>
         <div className="w-full md:w-1/2 py-6 px-6 flex justify-center">
-          <img src="assets/banner.png" alt="" />
+          <img src="assets/banner.png" alt="" className="rounded-xl shadow" />
         </div>
       </div>
     </div>

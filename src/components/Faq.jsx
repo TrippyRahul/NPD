@@ -6,14 +6,13 @@ const Faq = () => {
   const questions = [
     {
       title: "How can I ban websites?",
-      answer:
-        "Tailwind is a utility-first CSS framework that allows developers to rapidly build custom user interfaces.",
+      list: [
+        "Click the NPD toolbar icon",
+        "go to blocker setting",
+        "Add websites to block on the bar and then enter",
+      ],
     },
-    {
-      title: "What is React.js?",
-      answer:
-        "React.js is a popular JavaScript library used for building user interfaces.",
-    },
+
     {
       title: "What information does NPD gather?",
       answer:
@@ -96,6 +95,17 @@ const Faq = () => {
                 </div>
                 {activeQuestion === index && (
                   <p className="mt-2 text-white">{question.answer}</p>
+                )}
+                {question.list && (
+                  <div>
+                    {question.list.map((listitem) => (
+                      <div>s
+                        {activeQuestion === index && (
+                          <li className="mt-2 text-white">{listitem}</li>
+                        )}
+                      </div>
+                    ))}
+                  </div>
                 )}
               </div>
             ))}

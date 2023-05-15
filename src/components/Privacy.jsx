@@ -50,7 +50,6 @@ const Privacy = () => {
             </p>
             {about.list && (
               <div>
-                {" "}
                 {about.list.map((listiems) => (
                   <li class="w-full px-4 lg:w-[90%] lg:mx-[4.5rem] py-1">
                     {listiems}

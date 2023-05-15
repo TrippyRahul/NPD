@@ -11,21 +11,13 @@ const FeaturesBanner = () => {
         <div className="w-full text-white md:w-1/2 py-6 px-6 md:px-16 text-center md:text-left">
           <h1>Add Block At one Click</h1>
           <h1 class="text-[2.5rem] font-bold mb-4 text-white leading-[3rem] md:text-[3.5rem] md:leading-[4rem]">
-            One Extension
-            <br class="sm:hidden" /> For All Unsecure Websites
+            With one single click, block all unnecessary websites
           </h1>
 
-          <h1>One Extention,Unlimited potential</h1>
+          <h1>Be effective at work</h1>
           <p className="text-[10px] pt-2">
-            Network security is the practice of protecting computer networks
-            from unauthorized access, attacks, and data breaches. It involves
-            implementing various measures such as firewalls, encryption,
-            intrusion detection systems, and access controls to ensure the
-            confidentiality, integrity, and availability of network resources.
-            Effective network security is essential for businesses,
-            organizations, and individuals to prevent data theft, unauthorized
-            access, and other cyber threats that can cause significant
-            financial, reputational, and legal damages.
+            Learn how Network Privacy Defender has aided professionals all over
+            the world to boost their attention and productivity at work.
           </p>
           <a
             href="/home"

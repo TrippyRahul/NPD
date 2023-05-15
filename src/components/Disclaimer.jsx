@@ -3,8 +3,8 @@ import React from "react";
 const Disclaimer = () => {
   const data = [
     {
-      title: "  We are building a second brain for you",
-      desc: "  We are the top ranked productivity app that helps around 20 million people to organise their day to day activities. We provide the bestonline notepad where you can put all your ideas. By sticky notes manage your day to day tasks. We are the best task manager shortcut around the world. So, be focused and organise your tasks with a to do list task manager",
+      title: "",
+      desc: "  Want to block unwanted sites from your browser? Network Privacy Defender blocks certain websites that can distract you during a specified amount of time. We will restrict access to a certain set of websites during business hours so that the user can only view such websites when they are free.",
     },
     
   ];

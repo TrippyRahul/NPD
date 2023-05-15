@@ -3,12 +3,8 @@ import React from "react";
 const Aboutus = () => {
   const data = [
     {
-      title: "  We are building a second brain for you",
-      desc: "  We are the top ranked productivity app that helps around 20 million people to organise their day to day activities. We provide the bestonline notepad where you can put all your ideas. By sticky notes manage your day to day tasks. We are the best task manager shortcut around the world. So, be focused and organise your tasks with a to do list task manager",
-    },
-    {
-      title: "  We are building a second brain for you",
-      desc: "  We are the top ranked productivity app that helps around 20 million people to organise their day to day activities. We provide the bestonline notepad where you can put all your ideas. By sticky notes manage your day to day tasks. We are the best task manager shortcut around the world. So, be focused and organise your tasks with a to do list task manager",
+      title: "",
+      desc: "Whether you are at work, studying at school, college, and institution, or just looking for a way to get more done during the day. Network Privacy Defender provides the best tools to help you increase your productivity and obtain the results you desire fast and effectively.  ",
     },
   ];
   return (

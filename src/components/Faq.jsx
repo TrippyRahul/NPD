@@ -99,7 +99,7 @@ const Faq = () => {
                 {question.list && (
                   <div>
                     {question.list.map((listitem) => (
-                      <div>s
+                      <div>
                         {activeQuestion === index && (
                           <li className="mt-2 text-white">{listitem}</li>
                         )}

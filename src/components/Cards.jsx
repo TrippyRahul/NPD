@@ -1,34 +1,41 @@
 import React from "react";
 import { MdOutlineSecurity } from "react-icons/md";
+import { GiOnTarget } from "react-icons/gi";
+import { GrSchedules } from "react-icons/gr";
+import { FaBan } from "react-icons/fa";
+import { CgInsights } from "react-icons/cg";
+import { BiCodeBlock } from "react-icons/bi";
+import { MdOutlineRemoveModerator } from "react-icons/md";
+
 const Cards = () => {
   const cardsData = [
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <GiOnTarget size={100} />,
       title: "Target Mode",
       description: "Avoid any interruptions for a specific amount of time",
     },
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <GrSchedules size={100} />,
       title: "Schedule",
       description: "During the chosen hours, turn off all of your distractions",
     },
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <FaBan size={100} />,
       title: " Ban list",
       description: "You can restrict as many websites and apps as you want",
     },
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <CgInsights size={100} />,
       title: "Insights",
       description: "See how much time you spend online and on which website",
     },
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <BiCodeBlock size={100} />,
       title: "Category-Based Block",
       description: "Block everything on a category base with one single click",
     },
     {
-      icons: <MdOutlineSecurity size={100} />,
+      icons: <MdOutlineRemoveModerator size={100} />,
       title: "Remove Prevention",
       description: "Nobody can delete the program from your devices without your knowledge or permission",
     },
@@ -47,7 +54,7 @@ const Cards = () => {
         Network security is the process of safeguarding computer networks from
         unauthorized access and malicious attacks to ensure the confidentiality,
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:mx-[2rem] pt-4 ">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:mx-[8rem] pt-4 ">
         {cardsData.map((card) => (
           <div
             class="bg-white rounded-lg shadow-md p-6 text-center lg:mx-4 mb-6 w-full md:w-auto md:px-4"

@@ -17,7 +17,7 @@ const MainBanner = () => {
 
           </p>
           <a
-            href="/home"
+            href="/"
             className="mt-8 border-2 flex justify-center items-center gap-3 lg:w-[50%] lg:mt-12 md:mt-4 text-white rounded-tr-lg rounded-bl-lg px-8 py-1 bg-transparent font-bold"
           >
             <AiFillChrome size={30} />

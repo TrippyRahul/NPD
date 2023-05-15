@@ -12,7 +12,7 @@ const MainBanner = () => {
           <h1 className="text-[3.5rem] font-bold mb-4 text-white leading-[4rem]">
             Be more focused and avoid distractions
           </h1>
-          <p className="text-white text-xs">
+          <p className="text-white text-sm">
           Utilize Network Privacy Defender to get rid of distracting apps and websites and maintain attention
 
           </p>

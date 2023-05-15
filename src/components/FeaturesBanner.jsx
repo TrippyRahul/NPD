@@ -15,7 +15,7 @@ const FeaturesBanner = () => {
           </h1>
 
           <h1>Be effective at work</h1>
-          <p className="text-[10px] pt-2">
+          <p className="text-sm pt-2">
             Learn how Network Privacy Defender has aided professionals all over
             the world to boost their attention and productivity at work.
           </p>

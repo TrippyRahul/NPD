@@ -48,14 +48,14 @@ const Faq = () => {
             Control your day at work
           </h1>
 
-          <p className="text-[10px] pt-2 text-white">
+          <p className="text-sm pt-2 text-white">
             Effective time management is one of the most useful abilities you
             can have. You won't be able to accomplish your business or personal
             goals if you're not managing your time effectively. Your time
             management schedule will never look better thanks to the many tools
             offered on Network Privacy Defender.
           </p>
-          <p className="text-[10px] pt-2 text-white">
+          <p className="text-sm pt-2 text-white">
             Using the greatest time-management strategies, you'll be able to
             complete what you need to do while still having time to use your
             favorite websites and apps.

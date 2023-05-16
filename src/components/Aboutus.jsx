@@ -4,7 +4,7 @@ const Aboutus = () => {
   const data = [
     {
       title: "",
-      desc: "Whether you are at work, studying at school, college, and institution, or just looking for a way to get more done during the day. Network Privacy Defender provides the best tools to help you increase your productivity and obtain the results you desire fast and effectively.  ",
+      desc: "Whether you are at work, studying at school, college, and institution, or just looking for a way to gets more done during the day. Network Privacy Defender provides the best tools to help you increase your productivity and obtain the results you desire fast and effectively.  ",
     },
   ];
   return (

@@ -8,14 +8,14 @@ const Header = () => {
     setclose(!close);
   };
   return (
-    <div className="header">
+    <div className="header h-[100px]">
       <nav className="py-2 md:py-4">
         <div className="container px-4 mx-auto md:flex md:items-center">
           <div className="flex justify-between items-center">
             <a href="/" className="font-bold text-3xl text-white">
               <h1 className="flex gap-3 items-center">
                 <img src="assets/logo2.png" alt="" height="auto" width="25%" />
-                NPD
+               
               </h1>
             </a>
             <button className="md:hidden flex items-center text-white">
@@ -50,7 +50,8 @@ const Header = () => {
               Contact us
             </a>
             <a
-              href="/home"
+            target="_blank"
+              href="https://chrome.google.com/webstore/detail/network-privacy-defence/jcfohjogleiklndicglfeeccckkdgbdn?hl=en-US"
               className="flex items-center gap-3 lg:md:mx-2 text-white rounded-tr-lg rounded-bl-lg px-10 py-2 bg-[#5CA0E9] font-bold"
             >
               <AiFillChrome size={30} />
@@ -84,7 +85,8 @@ const Header = () => {
                 Contact us
               </a>
               <a
-                href="/home"
+                target="_blank"
+                href="https://chrome.google.com/webstore/detail/network-privacy-defence/jcfohjogleiklndicglfeeccckkdgbdn?hl=en-US"
                 className="block px-3 py-2 rounded mt-1 text-base text-white font-bold bg-[#5CA0E9]"
               >
                 Add to Chrome

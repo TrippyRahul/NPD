@@ -20,7 +20,8 @@ const FeaturesBanner = () => {
             the world to boost their attention and productivity at work.
           </p>
           <a
-            href="/home"
+        target="_blank"
+        href="https://chrome.google.com/webstore/detail/network-privacy-defence/jcfohjogleiklndicglfeeccckkdgbdn?hl=en-US"
             className="mt-12 flex justify-center items-center gap-3 lg:w-[50%] md:text-white rounded-tr-lg rounded-bl-lg px-10 py-2 bg-[#5CA0E9] font-bold"
           >
             <AiFillChrome size={30} />
